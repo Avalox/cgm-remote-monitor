@@ -9,9 +9,9 @@ function getText(){ // объявление функции
       let value = currentBG[i].innerText; // достаёшь нужную строку методом
       currentValue = ('Value: ' + value); // создаёшь строку на вывод
     }
-    //console.log(currentValue) // эта команда выводит в консоль
-    //alert(currentValue) // эта команда вызывает всплывающее окно
-    /* эта часть кода отвечает за скачивание файла
+    console.log(currentValue) // эта команда выводит в консоль
+    alert(currentValue) // эта команда вызывает всплывающее окно
+    * эта часть кода отвечает за скачивание файла
     let blob = new // объект блоб
     Blob([currentValue], {type: 'text/plain'}); // закидываешь нужную строку
     let link = document.createElement('a'); // создаёшь невидимую ссылку
